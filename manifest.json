@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "Bit it Rain!",
+  "description": "This extension allows the user to see prices of many alts in real time",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "alt.component.html",
+    "default_title": "BTC: 80,000 MXN"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}

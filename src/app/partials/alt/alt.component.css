@@ -1,0 +1,124 @@
+.ico_alt{
+	width: 22px;
+ 	height: 22px;
+ 	border-radius: 3px;
+	background-color: #32eea3;
+	margin-top: 0px;
+	margin-left: 10px;
+}
+
+.tabla {
+	max-width: 320px;
+	min-width: 320px;
+	height: 42px;
+	border-color: #f1f1f7;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.linea {
+	margin-top: 20px;
+	transition: background-color 0.5s ease;
+}
+
+.linea:hover {
+	transition: background-color 0.5s ease;
+	background-color: #f1f1f7;
+}
+
+.divider{
+	border-color: #f1f1f7;
+	border-width: 1px;
+	width: 100%;
+	margin-top: none;
+}
+
+.alt_txt {
+	font-size: 13px;
+ 	text-align: left;
+ 	color: #b2b1c0;
+ 	margin-left: 10px;
+ 	min-width: 150px;
+}
+
+.alt_txt b {
+	font-size: 13px;
+	font-weight: bold;
+	text-align: left;
+	color: #b2b1c0;
+}
+
+.price{
+	text-align: right;
+	font-size: 13px;
+	text-align: right;
+	color: #b2b1c0;
+}
+
+.wrapper_currency{
+	transition: background-color 0.3s ease;
+	width: 48px;
+ 	height: 26px;
+ 	border-radius: 3px;
+	border: solid 1px #f1f1f7;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+	color: #4b4977;
+	margin-left: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 2px;
+	cursor: pointer;
+}
+
+.wrapper_currency:hover {
+	border: solid 1px #f1f1f7;
+	color: #fff;
+	transition: background-color 0.5s ease;
+	background-color: #4b4977;
+}
+
+footer {
+	width: 320px;
+	height: 69px;
+	background-color: #4b4977;
+	position : absolute;
+    bottom : 0;
+}
+
+.accent {
+	font-size: 10px;
+	letter-spacing: 0.2px;
+	text-align: left;
+	color: #32eea3;
+	margin-left: 5px;
+}
+
+.lefty {
+	font-size: 10px;
+	letter-spacing: 0.2px;
+	text-align: right;
+	color: #c6c4ff;
+}
+
+.lefty b{
+	color: #fff;
+}
+
+.logo_footer {
+	margin-top: 10px;
+	width: 50px;
+}
+
+.social_icos_footer {
+	margin-top: 10px;
+}
+
+.ico_footer_space {
+	margin-left: 5px;
+}
+
+.hecho_en {
+	margin-top: 15px;
+}
