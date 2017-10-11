@@ -3,32 +3,10 @@
     <div class="">
       <div class="ico_alt"></div>
     </div>
-    <span class="alt_txt">Bitcoin<b> {{alt.short}}</b></span>
-    <span class="price">{{alt.price}}</span>
+    <span class="alt_txt">{{alt.long}}<b> {{alt.short}}</b></span>
+    <span class="price">{{alt.price | number:'1.2-2'}}</span>
     <span class="wrapper_currency">USD</span>
     <hr class="divider">
   </div>
 </div>
 
-<footer class="navbar-fixed-bottom">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-3">
-        <img src="https://bititrain.com/assets/ico-logo-footer.svg" class="logo_footer">
-      </div>
-      <div class="col-sm-6 social_icos_footer">
-        <img src="https://testnet.bititrain.com/assets/ico-libretita.svg"><span class="accent">Blog</span>
-        <br>
-        <img src="https://testnet.bititrain.com/assets/ico-facebook.svg">
-        <img src="https://testnet.bititrain.com/assets/ico-twitter.svg" class="ico_footer_space">
-        <img src="https://testnet.bititrain.com/assets/ico-telegram.svg" class="ico_footer_space">
-      </div>
-      <div class="col-xs-1 hecho_en">
-        <img src="https://testnet.bititrain.com/assets/ico-banderita.png" align="right">
-        <p class="lefty">Codeado en <br>
-          <b>México</b></p>
-      </div>
-    </div>
-  </div>
-
-</footer>

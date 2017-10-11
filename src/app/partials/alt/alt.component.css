@@ -64,12 +64,12 @@
 	font-size: 13px;
 	font-weight: bold;
 	text-align: center;
-	color: #4b4977;
+    color: #4b4977;
 	margin-left: 10px;
 	padding-left: 5px;
 	padding-right: 5px;
 	padding-top: 2px;
-	cursor: pointer;
+    cursor: pointer;
 }
 
 .wrapper_currency:hover {
@@ -79,13 +79,7 @@
 	background-color: #4b4977;
 }
 
-footer {
-	width: 320px;
-	height: 69px;
-	background-color: #4b4977;
-	position : absolute;
-    bottom : 0;
-}
+
 
 .accent {
 	font-size: 10px;
@@ -121,4 +115,8 @@ footer {
 
 .hecho_en {
 	margin-top: 15px;
+}
+
+footer {
+    position: sticky;
 }
